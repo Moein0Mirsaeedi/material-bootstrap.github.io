@@ -1,19 +1,26 @@
 $radius: 4px;
 
+$primary: #1565C0;
+$success: #02d60d;
+$danger: #D50000;
+$dark: #000;
+$info: #00E5FF;
+$warning: #FFC400;
+
 $colors: (
-    "primary": #1565C0,
-    "success": #02d60d,
-    "danger": #D50000,
-    "dark": #000,
-    "info": #00E5FF,
-    "warning": #FFC400
+    "primary": $primary,
+    "success": $success,
+    "danger": $danger,
+    "dark": $dark,
+    "info": $info,
+    "warning": $warning
 );
 
 $colors_light: (
-    "primary": #4193f1,
-    "success": #02d60d,
-    "danger": #D50000,
-    "dark": #000,
-    "info": #00E5FF,
-    "warning": #FFC400
+    "primary": $primary,
+    "success": $success,
+    "danger": $danger,
+    "dark": $dark,
+    "info": $info,
+    "warning": $warning
 )
