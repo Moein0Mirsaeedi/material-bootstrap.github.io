@@ -1,0 +1,18 @@
+.btn{
+    border-radius: $radius; 
+    &, &:hover, &:focus, &:active {
+        box-shadow: none;
+        border: 2px solid transparent;
+    }
+
+    @each $name, $color in $colors {
+        &.btn-#{$name} {
+            background: $color;
+        }
+        &.btn-outline-#{$name}{
+            background: #fff;
+            border: 2px solid $color;
+            color: $color;
+        }
+    }
+} 
