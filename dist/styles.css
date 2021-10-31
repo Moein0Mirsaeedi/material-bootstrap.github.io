@@ -105,26 +105,32 @@
 }
 
 .btn-outline-primary:before {
+  --ripple-opacity: 0.5;
   background: #1565C0;
 }
 
 .btn-outline-success:before {
+  --ripple-opacity: 0.5;
   background: #02d60d;
 }
 
 .btn-outline-danger:before {
+  --ripple-opacity: 0.5;
   background: #D50000;
 }
 
 .btn-outline-dark:before {
+  --ripple-opacity: 0.5;
   background: #000;
 }
 
 .btn-outline-info:before {
+  --ripple-opacity: 0.5;
   background: #00E5FF;
 }
 
 .btn-outline-warning:before {
+  --ripple-opacity: 0.5;
   background: #FFC400;
 }
 /*# sourceMappingURL=styles.css.map */

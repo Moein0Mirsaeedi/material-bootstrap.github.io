@@ -29,6 +29,7 @@
 
 @each $name, $color in $colors {
     &.btn-outline-#{$name}:before{
+        --ripple-opacity: 0.5;
         background: $color;
     }
 }
