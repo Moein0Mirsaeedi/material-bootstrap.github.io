@@ -1,6 +1,6 @@
 .btn{
     border-radius: $radius; 
-    &, &:hover, &:focus, &:active {
+    &, &:hover, &:focus, &:active, .active {
         box-shadow: none;
         border: 2px solid transparent;
     }
@@ -13,6 +13,15 @@
             background: #fff;
             border: 2px solid $color;
             color: $color;
+        }
+
+        &.btn-check:active + .btn-#{$name}:focus,
+        &.btn-check:checked + .btn-#{$name}:focus,
+        &.btn-#{$name}.active:focus,
+        &.btn-#{$name}:active:focus,
+        &.show > .btn-#{$name}.dropdown-toggle:focus{
+            border: 2px solid transparent;
+            box-shadow: none;
         }
     }
 }
