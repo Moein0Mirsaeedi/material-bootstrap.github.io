@@ -1,0 +1,15 @@
+.alert{
+    border: none;
+    @each $name, $color in $colors {
+        &.alert-#{$name}{
+            background-color: $color;
+            border-color: none;
+        }
+    }
+
+    @each $name, $color in $colors_reverse {
+        &.alert-#{$name}{
+            color: $color;
+        }
+    }
+}

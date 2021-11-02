@@ -6,6 +6,18 @@ $danger: #D50000;
 $dark: #000;
 $info: #00E5FF;
 $warning: #FFC400;
+$secondary: #f1f1f1;
+$grey: rgb(58, 58, 58);
+
+$colors_reverse: (
+    "primary": #fff,
+    "success": #fff,
+    "danger": #fff,
+    "dark": #fff,
+    "info": $grey,
+    "warning": $grey,
+    "secondary": #000
+);
 
 $primary_light: #79aeeb;
 $success_light: #76f07c;
@@ -20,7 +32,8 @@ $colors: (
     "danger": $danger,
     "dark": $dark,
     "info": $info,
-    "warning": $warning
+    "warning": $warning,
+    "secondary": $secondary
 );
 
 $colors_light: (
