@@ -16,3 +16,11 @@
         }
     }
 }
+
+// TODO - moien -> do task continue
+.btn-close {
+    opacity: 1;
+    &:hover, &:focus{
+        box-shadow: none;
+    }
+}

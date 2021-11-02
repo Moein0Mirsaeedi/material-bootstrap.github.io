@@ -85,6 +85,15 @@
   color: #f1f1f1;
 }
 
+.btn-close {
+  opacity: 1;
+}
+
+.btn-close:hover, .btn-close:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
 [anim="ripple"] {
   --ripple-background: white;
   --ripple-opacity: 0.3;
@@ -291,6 +300,10 @@
 }
 
 .alert.alert-secondary {
+  color: #000;
+}
+
+.alert.alert-light {
   color: #000;
 }
 /*# sourceMappingURL=styles.css.map */
