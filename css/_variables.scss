@@ -7,6 +7,13 @@ $dark: #000;
 $info: #00E5FF;
 $warning: #FFC400;
 
+$primary_light: #79aeeb;
+$success_light: #76f07c;
+$danger_light: #e27272;
+$dark_light: #000;
+$info_light: #00E5FF;
+$warning_light: #FFC400;
+
 $colors: (
     "primary": $primary,
     "success": $success,
@@ -17,10 +24,10 @@ $colors: (
 );
 
 $colors_light: (
-    "primary": $primary,
-    "success": $success,
-    "danger": $danger,
-    "dark": $dark,
-    "info": $info,
-    "warning": $warning
+    "primary": $primary_light,
+    "success": $success_light,
+    "danger": $danger_light,
+    "dark": $dark_light,
+    "info": $info_light,
+    "warning": $warning_light
 )
