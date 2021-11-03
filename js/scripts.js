@@ -1,5 +1,5 @@
 [].map.call(document.querySelectorAll('[anim="ripple"]'), el=> {
-    el.addEventListener('click',e => {
+    el.addEventListener('click' , e => {
         e = e.touches ? e.touches[0] : e;
         const r = el.getBoundingClientRect(), d = Math.sqrt(Math.pow(r.width,2)+Math.pow(r.height,2)) * 2;
         el.style.cssText = `--s: 0; --o: 1;`;  el.offsetTop; 

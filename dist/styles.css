@@ -594,4 +594,110 @@
           box-shadow: 0px 0px 0px 6px rgba(226, 226, 226, 0.5);
   background-color: #fff;
 }
+
+.dropdown .dropdown-menu {
+  border: none;
+  -webkit-box-shadow: 0px 7px 12px rgba(19, 19, 19, 0.1);
+          box-shadow: 0px 7px 12px rgba(19, 19, 19, 0.1);
+}
+
+.dropdown .dropdown-menu .dropdown-item {
+  background-color: #fff;
+}
+
+.dropdown .dropdown-menu .dropdown-item, .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item.active {
+  color: #212529;
+}
+
+.dropdown .dropdown-menu .dropdown-item.active, .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown .dropdown-menu-primary .dropdown-item.active, .dropdown .dropdown-menu-primary .dropdown-item:active, .dropdown .dropdown-menu-primary .dropdown-item:hover {
+  background: #1565C0;
+}
+
+.dropdown .dropdown-menu-primary[anim="ripple"]::before {
+  background: #1565C0;
+}
+
+.dropdown .dropdown-menu-success .dropdown-item.active, .dropdown .dropdown-menu-success .dropdown-item:active, .dropdown .dropdown-menu-success .dropdown-item:hover {
+  background: #02d60d;
+}
+
+.dropdown .dropdown-menu-success[anim="ripple"]::before {
+  background: #02d60d;
+}
+
+.dropdown .dropdown-menu-danger .dropdown-item.active, .dropdown .dropdown-menu-danger .dropdown-item:active, .dropdown .dropdown-menu-danger .dropdown-item:hover {
+  background: #D50000;
+}
+
+.dropdown .dropdown-menu-danger[anim="ripple"]::before {
+  background: #D50000;
+}
+
+.dropdown .dropdown-menu-dark .dropdown-item.active, .dropdown .dropdown-menu-dark .dropdown-item:active, .dropdown .dropdown-menu-dark .dropdown-item:hover {
+  background: #000;
+}
+
+.dropdown .dropdown-menu-dark[anim="ripple"]::before {
+  background: #000;
+}
+
+.dropdown .dropdown-menu-info .dropdown-item.active, .dropdown .dropdown-menu-info .dropdown-item:active, .dropdown .dropdown-menu-info .dropdown-item:hover {
+  background: #00E5FF;
+}
+
+.dropdown .dropdown-menu-info[anim="ripple"]::before {
+  background: #00E5FF;
+}
+
+.dropdown .dropdown-menu-warning .dropdown-item.active, .dropdown .dropdown-menu-warning .dropdown-item:active, .dropdown .dropdown-menu-warning .dropdown-item:hover {
+  background: #FFC400;
+}
+
+.dropdown .dropdown-menu-warning[anim="ripple"]::before {
+  background: #FFC400;
+}
+
+.dropdown .dropdown-menu-secondary .dropdown-item.active, .dropdown .dropdown-menu-secondary .dropdown-item:active, .dropdown .dropdown-menu-secondary .dropdown-item:hover {
+  background: #f1f1f1;
+}
+
+.dropdown .dropdown-menu-secondary[anim="ripple"]::before {
+  background: #f1f1f1;
+}
+
+.dropdown .dropdown-menu-primary .dropdown-item:active, .dropdown .dropdown-menu-primary .dropdown-item.active, .dropdown .dropdown-menu-primary .dropdown-item:hover {
+  color: #fff;
+}
+
+.dropdown .dropdown-menu-success .dropdown-item:active, .dropdown .dropdown-menu-success .dropdown-item.active, .dropdown .dropdown-menu-success .dropdown-item:hover {
+  color: #fff;
+}
+
+.dropdown .dropdown-menu-danger .dropdown-item:active, .dropdown .dropdown-menu-danger .dropdown-item.active, .dropdown .dropdown-menu-danger .dropdown-item:hover {
+  color: #fff;
+}
+
+.dropdown .dropdown-menu-dark .dropdown-item:active, .dropdown .dropdown-menu-dark .dropdown-item.active, .dropdown .dropdown-menu-dark .dropdown-item:hover {
+  color: #fff;
+}
+
+.dropdown .dropdown-menu-info .dropdown-item:active, .dropdown .dropdown-menu-info .dropdown-item.active, .dropdown .dropdown-menu-info .dropdown-item:hover {
+  color: #2c2c2c;
+}
+
+.dropdown .dropdown-menu-warning .dropdown-item:active, .dropdown .dropdown-menu-warning .dropdown-item.active, .dropdown .dropdown-menu-warning .dropdown-item:hover {
+  color: #2c2c2c;
+}
+
+.dropdown .dropdown-menu-secondary .dropdown-item:active, .dropdown .dropdown-menu-secondary .dropdown-item.active, .dropdown .dropdown-menu-secondary .dropdown-item:hover {
+  color: #000;
+}
+
+.dropdown .dropdown-menu-light .dropdown-item:active, .dropdown .dropdown-menu-light .dropdown-item.active, .dropdown .dropdown-menu-light .dropdown-item:hover {
+  color: #000;
+}
 /*# sourceMappingURL=styles.css.map */
