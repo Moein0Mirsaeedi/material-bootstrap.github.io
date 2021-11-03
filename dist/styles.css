@@ -484,4 +484,22 @@
 .card .card-text {
   color: #777;
 }
+
+.card .lazy-img {
+  height: 250px;
+}
+
+.lazy-img {
+  background-color: #f1f1f1;
+}
+
+.lazy-img img {
+  opacity: 0;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+}
+
+.lazy-img.image__loaded img {
+  opacity: 1;
+}
 /*# sourceMappingURL=styles.css.map */
