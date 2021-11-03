@@ -33,6 +33,12 @@
           box-shadow: none;
 }
 
+.btn.btn-glass-primary {
+  background: #fff;
+  border: 2px solid transparent;
+  color: #1565C0;
+}
+
 .btn.btn-success {
   background: #02d60d;
 }
@@ -49,6 +55,12 @@
   border: 2px solid transparent;
   -webkit-box-shadow: none;
           box-shadow: none;
+}
+
+.btn.btn-glass-success {
+  background: #fff;
+  border: 2px solid transparent;
+  color: #02d60d;
 }
 
 .btn.btn-danger {
@@ -69,6 +81,12 @@
           box-shadow: none;
 }
 
+.btn.btn-glass-danger {
+  background: #fff;
+  border: 2px solid transparent;
+  color: #D50000;
+}
+
 .btn.btn-dark {
   background: #000;
 }
@@ -85,6 +103,12 @@
   border: 2px solid transparent;
   -webkit-box-shadow: none;
           box-shadow: none;
+}
+
+.btn.btn-glass-dark {
+  background: #fff;
+  border: 2px solid transparent;
+  color: #000;
 }
 
 .btn.btn-info {
@@ -105,6 +129,12 @@
           box-shadow: none;
 }
 
+.btn.btn-glass-info {
+  background: #fff;
+  border: 2px solid transparent;
+  color: #00E5FF;
+}
+
 .btn.btn-warning {
   background: #FFC400;
 }
@@ -123,6 +153,12 @@
           box-shadow: none;
 }
 
+.btn.btn-glass-warning {
+  background: #fff;
+  border: 2px solid transparent;
+  color: #FFC400;
+}
+
 .btn.btn-secondary {
   background: #f1f1f1;
 }
@@ -139,6 +175,12 @@
   border: 2px solid transparent;
   -webkit-box-shadow: none;
           box-shadow: none;
+}
+
+.btn.btn-glass-secondary {
+  background: #fff;
+  border: 2px solid transparent;
+  color: #f1f1f1;
 }
 
 .btn-close {
@@ -189,8 +231,18 @@
   background: #1565C0;
 }
 
+.btn-glass-primary:before {
+  --ripple-opacity: 0.7;
+  background: #1565C0;
+}
+
 .btn-outline-success:before {
   --ripple-opacity: 0.5;
+  background: #02d60d;
+}
+
+.btn-glass-success:before {
+  --ripple-opacity: 0.7;
   background: #02d60d;
 }
 
@@ -199,8 +251,18 @@
   background: #D50000;
 }
 
+.btn-glass-danger:before {
+  --ripple-opacity: 0.7;
+  background: #D50000;
+}
+
 .btn-outline-dark:before {
   --ripple-opacity: 0.5;
+  background: #000;
+}
+
+.btn-glass-dark:before {
+  --ripple-opacity: 0.7;
   background: #000;
 }
 
@@ -209,13 +271,28 @@
   background: #00E5FF;
 }
 
+.btn-glass-info:before {
+  --ripple-opacity: 0.7;
+  background: #00E5FF;
+}
+
 .btn-outline-warning:before {
   --ripple-opacity: 0.5;
   background: #FFC400;
 }
 
+.btn-glass-warning:before {
+  --ripple-opacity: 0.7;
+  background: #FFC400;
+}
+
 .btn-outline-secondary:before {
   --ripple-opacity: 0.5;
+  background: #f1f1f1;
+}
+
+.btn-glass-secondary:before {
+  --ripple-opacity: 0.7;
   background: #f1f1f1;
 }
 

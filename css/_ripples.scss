@@ -32,4 +32,9 @@
         --ripple-opacity: 0.5;
         background: $color;
     }
+
+    &.btn-glass-#{$name}:before{
+        --ripple-opacity: 0.7;
+        background: $color;
+    }
 }

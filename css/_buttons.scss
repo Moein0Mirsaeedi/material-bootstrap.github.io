@@ -23,6 +23,12 @@
             border: 2px solid transparent;
             box-shadow: none;
         }
+
+        &.btn-glass-#{$name}{
+            background: #fff;
+            border: 2px solid transparent;
+            color: $color;
+        }
     }
 }
 
