@@ -502,4 +502,96 @@
 .lazy-img.image__loaded img {
   opacity: 1;
 }
+
+.object-fit-img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.carousel {
+  background-color: #f1f1f1;
+}
+
+.carousel, .carousel .carousel-inner {
+  height: 500px;
+  border-radius: .25rem;
+}
+
+.carousel .carousel-inner img {
+  height: 100%;
+}
+
+.carousel .carousel-inner .carousel-item {
+  -webkit-transition: -webkit-transform 0.4s ease;
+  transition: -webkit-transform 0.4s ease;
+  transition: transform 0.4s ease;
+  transition: transform 0.4s ease, -webkit-transform 0.4s ease;
+}
+
+.carousel .carousel-control-prev, .carousel .carousel-control-next {
+  --dotted-buttons-size: 33px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, calc(-50% + calc(var(--dotted-buttons-size) / 2)));
+          transform: translate(0, calc(-50% + calc(var(--dotted-buttons-size) / 2)));
+  opacity: 1;
+}
+
+.carousel .carousel-control-prev.dotted-buttons, .carousel .carousel-control-next.dotted-buttons {
+  width: var(--dotted-buttons-size);
+  height: var(--dotted-buttons-size);
+  background-color: rgba(0, 0, 0, 0.822);
+  border-radius: 50%;
+  padding: 7px;
+}
+
+.carousel .carousel-control-prev.dotted-buttons {
+  padding-right: 9px;
+  left: 15px;
+}
+
+.carousel .carousel-control-next.dotted-buttons {
+  padding-left: 9px;
+  right: 15px;
+}
+
+.carousel .carousel-indicators.carousel-indicators-highlight {
+  background: rgba(17, 17, 17, 0.5);
+  height: 40px;
+  margin: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.carousel .carousel-indicators [data-bs-target].dotted-buttons {
+  opacity: 1;
+  background-color: rgba(250, 250, 250, 0.801);
+  --size: 14px;
+  width: var(--size);
+  height: var(--size);
+  border: none;
+  border-radius: 50%;
+  margin: 0 7px;
+  -webkit-box-shadow: 0px 0px 0px 0px transparent;
+          box-shadow: 0px 0px 0px 0px transparent;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  -webkit-transition-property: background-color, -webkit-box-shadow;
+  transition-property: background-color, -webkit-box-shadow;
+  transition-property: box-shadow, background-color;
+  transition-property: box-shadow, background-color, -webkit-box-shadow;
+}
+
+.carousel .carousel-indicators [data-bs-target].dotted-buttons:hover {
+  -webkit-box-shadow: 0px 0px 0px 6px rgba(226, 226, 226, 0.15);
+          box-shadow: 0px 0px 0px 6px rgba(226, 226, 226, 0.15);
+  background-color: #fff;
+}
+
+.carousel .carousel-indicators [data-bs-target].dotted-buttons:active, .carousel .carousel-indicators [data-bs-target].dotted-buttons.active {
+  -webkit-box-shadow: 0px 0px 0px 6px rgba(226, 226, 226, 0.5);
+          box-shadow: 0px 0px 0px 6px rgba(226, 226, 226, 0.5);
+  background-color: #fff;
+}
 /*# sourceMappingURL=styles.css.map */
