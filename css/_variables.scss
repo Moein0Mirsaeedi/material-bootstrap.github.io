@@ -22,12 +22,12 @@ $colors_reverse: (
 
 $overlay_color: $secondary;
 
-$primary_light: #79aeeb;
-$success_light: #76f07c;
-$danger_light: #e27272;
-$dark_light: #000;
-$info_light: #00E5FF;
-$warning_light: #FFC400;
+$primary_light: #e6f1ff;
+$success_light: #d9ffdb;
+$danger_light: #ffc8c8;
+$dark_light: rgb(207, 207, 207);
+$info_light: #e0fcff;
+$warning_light: #fff5d5;
 
 $colors: (
     "primary": $primary,
