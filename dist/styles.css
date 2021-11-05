@@ -745,10 +745,6 @@
   color: #212529;
 }
 
-.modal {
-  padding: 25% 0;
-}
-
 .modal .modal-header, .modal .modal-footer {
   border: none;
 }
@@ -760,10 +756,6 @@
   transition: -webkit-transform 0.2s ease;
   transition: transform 0.2s ease;
   transition: transform 0.2s ease, -webkit-transform 0.2s ease;
-}
-
-.modal.fade .modal-dialog {
-  margin: 0 auto;
 }
 
 .modal.show .modal-dialog {
