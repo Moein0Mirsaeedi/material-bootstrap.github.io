@@ -2,7 +2,11 @@
     .dropdown-menu{
         border: none;
         box-shadow: 0px 7px 12px rgba(19, 19, 19, 0.1);
+        [anim="ripple"]{
+            --ripple-background: $overlay_color;
+        }
         .dropdown-item{
+            user-select: none;
             background-color: #fff;
             &, &:active, &.active{
                 color: #212529;
@@ -22,7 +26,7 @@
         }
         .dropdown-menu-#{$name}{
             &[anim="ripple"]::before{
-                background: $color;
+                // background: $color;
             }
         }
     }
@@ -33,6 +37,15 @@
                 &:active, &.active, &:hover{
                     color: $color;
                 }
+            }
+        }
+    }
+
+    .dropdown-menu.dropdown-nohover{
+        .dropdown-item{
+            &.active, &:active, &:hover{
+                background: #fff;
+                color: #212529;
             }
         }
     }
