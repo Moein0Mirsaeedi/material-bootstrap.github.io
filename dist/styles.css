@@ -512,13 +512,9 @@
   background-color: #f1f1f1;
 }
 
-.carousel, .carousel .carousel-inner {
+.carousel, .carousel .carousel-inner, .carousel .carousel-inner img {
   height: 500px;
   border-radius: .25rem;
-}
-
-.carousel .carousel-inner img {
-  height: 100%;
 }
 
 .carousel .carousel-inner .carousel-item {
