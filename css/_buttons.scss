@@ -55,3 +55,40 @@
         box-shadow: none;
     }
 }
+
+.navbar-toggler{
+    height: 40px;
+    width: 58px;
+    .navbar-toggler-icon-span{
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        width: 95%;
+        height: 4px;
+        display: block;
+        background: rgb(63, 63, 63);
+        border-radius: 50px;
+        margin: 5px 0;
+        &.animated{
+            transition: 0.3s ease;
+        }
+    }
+    &[aria-expanded=true]{
+        .navbar-toggler-icon-span:nth-child(2){
+            display: none;
+        }
+
+        .navbar-toggler-icon-span:nth-child(1){
+            top: 4px;
+            transform: translate(-50%) rotate(45deg)
+        }
+        .navbar-toggler-icon-span:nth-child(3){
+            top: -4px;
+            transform: translate(-50%) rotate(-45deg)
+        }
+    }
+    border: none;
+    &:focus{
+        box-shadow: none;
+    }
+}
