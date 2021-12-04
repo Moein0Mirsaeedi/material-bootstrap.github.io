@@ -856,6 +856,106 @@
 
 .toast.toast-inline.dark {
   background: #333;
+  border-color: #333;
   color: #ffffffde;
+}
+
+.pagination .page-item {
+  margin: 0 4px;
+}
+
+.pagination .page-item:first-child {
+  margin-left: 0;
+}
+
+.pagination .page-item:last-child {
+  margin-right: 0;
+}
+
+.pagination .page-item .page-link {
+  cursor: pointer;
+  border-radius: 3px;
+  border: none;
+  -webkit-box-shadow: 0 4px 7px -1px rgba(182, 182, 182, 0.3);
+          box-shadow: 0 4px 7px -1px rgba(182, 182, 182, 0.3);
+}
+
+.pagination .page-item .page-link, .pagination .page-item .page-link:hover {
+  color: #222;
+  background: #fff;
+}
+
+.pagination.pagination-primary .page-link.active {
+  background: #1565C0;
+  -webkit-box-shadow: 0 2px 7px -1px rgba(182, 182, 182, 0.3);
+          box-shadow: 0 2px 7px -1px rgba(182, 182, 182, 0.3);
+}
+
+.pagination.pagination-success .page-link.active {
+  background: #02d60d;
+  -webkit-box-shadow: 0 2px 7px -1px rgba(182, 182, 182, 0.3);
+          box-shadow: 0 2px 7px -1px rgba(182, 182, 182, 0.3);
+}
+
+.pagination.pagination-danger .page-link.active {
+  background: #D50000;
+  -webkit-box-shadow: 0 2px 7px -1px rgba(182, 182, 182, 0.3);
+          box-shadow: 0 2px 7px -1px rgba(182, 182, 182, 0.3);
+}
+
+.pagination.pagination-dark .page-link.active {
+  background: #000;
+  -webkit-box-shadow: 0 2px 7px -1px rgba(182, 182, 182, 0.3);
+          box-shadow: 0 2px 7px -1px rgba(182, 182, 182, 0.3);
+}
+
+.pagination.pagination-info .page-link.active {
+  background: #00E5FF;
+  -webkit-box-shadow: 0 2px 7px -1px rgba(182, 182, 182, 0.3);
+          box-shadow: 0 2px 7px -1px rgba(182, 182, 182, 0.3);
+}
+
+.pagination.pagination-warning .page-link.active {
+  background: #FFC400;
+  -webkit-box-shadow: 0 2px 7px -1px rgba(182, 182, 182, 0.3);
+          box-shadow: 0 2px 7px -1px rgba(182, 182, 182, 0.3);
+}
+
+.pagination.pagination-secondary .page-link.active {
+  background: #f1f1f1;
+  -webkit-box-shadow: 0 2px 7px -1px rgba(182, 182, 182, 0.3);
+          box-shadow: 0 2px 7px -1px rgba(182, 182, 182, 0.3);
+}
+
+.pagination.pagination-primary .page-link.active {
+  color: #fff;
+}
+
+.pagination.pagination-success .page-link.active {
+  color: #fff;
+}
+
+.pagination.pagination-danger .page-link.active {
+  color: #fff;
+}
+
+.pagination.pagination-dark .page-link.active {
+  color: #fff;
+}
+
+.pagination.pagination-info .page-link.active {
+  color: #2c2c2c;
+}
+
+.pagination.pagination-warning .page-link.active {
+  color: #2c2c2c;
+}
+
+.pagination.pagination-secondary .page-link.active {
+  color: #000;
+}
+
+.pagination.pagination-light .page-link.active {
+  color: #000;
 }
 /*# sourceMappingURL=styles.css.map */
