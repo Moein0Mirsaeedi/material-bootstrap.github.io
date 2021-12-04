@@ -824,4 +824,38 @@
   background-color: var(--color);
   padding: 15px 5px;
 }
+
+.toast {
+  border-color: #f8f8f8;
+  -webkit-box-shadow: 0 0.3rem 1rem #55555554;
+          box-shadow: 0 0.3rem 1rem #55555554;
+}
+
+.toast.toast-inline {
+  padding: 14px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.toast.toast-inline .toast-body {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  padding-top: 2px;
+}
+
+.toast.toast-inline .btn-close {
+  margin-left: auto;
+  display: inline-block;
+  margin-top: 2px;
+}
+
+.toast.toast-inline.dark {
+  background: #333;
+  color: #ffffffde;
+}
 /*# sourceMappingURL=styles.css.map */
